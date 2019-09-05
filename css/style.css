@@ -6,29 +6,30 @@
  * Made By MaterializeCSS.com
  */
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-	font-size: inherit;
-}
 html,
 head,
 body{
 	height: 100%;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
 }
 .custom-container{
 	width: 100%;
     height: 100%;
     margin: 0 auto;
     max-width: 640px;
-    background: linear-gradient(to right, rgba(254,39,82,1) 0%, rgba(237,33,44,1) 100%);
-	
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.28), 0 1px 2px rgba(0, 0, 0, 0);
 }
 .section.topbar {
     color: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
     background-color:#d4121a;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 .topbar .row {
     margin-bottom: 0px;
@@ -39,3 +40,108 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+/********** header battery icon css*********/
+.icon-rotate-battery i{
+    transform: rotate(90deg);
+}
+/********** header battery icon css end*********/
+
+/**********index.page css**********/
+.wrappper,
+.bargainz-wrappper{
+    background: linear-gradient(to right, rgba(254,39,82,1) 0%, rgba(237,33,44,1) 100%);
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+/**********bargainz.page css**********/
+.bargainz-wrappper{
+    height: 365px;
+    position: relative;
+    border-bottom-left-radius: 46%;
+    border-bottom-right-radius: 46%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0), 0 1px 2px rgba(0, 0, 0, 0.34);
+}
+.social-icon {
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+}
+.social-wrap {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.social-icon .facebook{
+    background: linear-gradient(to right, rgb(66, 79, 183) 0%, rgb(77, 92, 177) 100%);
+}
+.social-icon .google{
+    background: linear-gradient(to right, rgb(242, 75, 56) 0%, #e85136 100%);
+}
+.social-icon button {
+    width: 100%;
+    max-width: 80%;
+    background: linear-gradient(to right, rgba(254,39,82,1) 0%, rgba(237,33,44,1) 100%);
+    font-size: 22px;
+    text-transform: initial;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.aap-footer-content {
+    float: left;
+    width: 100%;
+}
+/**********bargainz.page css end**********/
+
+/**********contact.page css**********/
+.wrap-padding {
+    width: 100%;
+    padding: 20px 40px;
+    float: left;
+}
+.feedback-box h3 {
+    margin: 0px;
+}
+.app-form label {
+    color: #000;
+}
+h5.text-or {
+    margin-top: 60px;
+}
+.wrap-padding .social-icon {
+    padding-top:0px;
+}
+/**********contact.page css end**********/
+
+/*****************home page css*************/
+.product-categoery-icon i {
+    color: #ee2225;
+    font-size: 35px;
+}
+.product-categoery-icon {
+    background-color: #fff;
+}
+.product-categoery-icon .row{
+    margin-bottom: 0px;
+}
+.product-categoery-icon h5 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+/*****************home page css end**********/
