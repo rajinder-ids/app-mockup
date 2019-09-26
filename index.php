@@ -11,21 +11,8 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <div class="container custom-container">
+  <div class="container custom-container height-100">
     <div class="wrappper">
-<!--       <div class="section topbar">
-        <div class="row">
-          <div class="col s4 m4 left-align">
-          <i class="material-icons">wifi</i>
-        </div>
-          <div class="col s4 m4 center-align">
-            9:00AM
-          </div>
-          <div class="col s4 m4 right-align icon-rotate-battery">
-            <i class="material-icons">battery_full</i>
-          </div>
-        </div>
-      </div> -->
       <div class="section app-logo">
         <div class="row">
           <div class="s4 m12">
@@ -37,9 +24,8 @@
     <br><br>
   </div>
   <!--  Scripts-->
-<!--   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
   </body>
 </html>
