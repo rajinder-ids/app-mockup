@@ -16,11 +16,31 @@ document.addEventListener('DOMContentLoaded', function() {
 jQuery(document).ready(function($){
   jQuery('.modal').modal();
   slider('.four-products',4);
-  slider('.recentlyAdded',5);
+  slider('.recentlyAdded',3);
   jQuery('.wishlist-icon').click(function(){
     // $(this).html('<i class="material-icons dp48 ">favorite</i>')
     $(this).children('i').html('favorite');
   })
+  jQuery(document).ready(function($){
+    $('ul.tabs').tabs();
+  });
+  jQuery('.search-icon-home').click(function($){
+      jQuery('.searchbar-home').addClass('elemnet-fade-in');
+    });
+
+  jQuery('.notifications-app').click(function($){
+      jQuery('.top-sheet').addClass('elemnet-fade-in');
+    });
+  jQuery('.notifications-app2').click(function($){
+      jQuery('.top-sheet2').addClass('elemnet-fade-in');
+    });
+  jQuery(document).ready(function($){
+    $(".fade-out").click(function(){
+      $('.searchbar-home').removeClass('elemnet-fade-in');
+      $('.top-sheet').removeClass('elemnet-fade-in');
+      $('.top-sheet2').removeClass('elemnet-fade-in');
+    });
+  });
 });
 
 
